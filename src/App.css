@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: brown;
+  background-image: url("https://sun6-22.userapi.com/s/v1/if1/foMyRfHWH00DDNsZQ8-xpgVKLlfYwOwf3dV0EDct1gG_oJ0NK3Htu2SyL78UQFCQRpxXmlEJ.jpg?size=797x797&quality=96&crop=115,0,797,797&ava=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-position: center;
+  z-index: -1;
+}
+.container {
+  display: flex;
+justify-content: center;
+margin-top: 50px;
+font-family: 'Montserrat', sans-serif;
+}
+h1{
+  display: flex;
+  flex-wrap: wrap;
+}
+  h1:hover {
+    color: chocolate;
+    cursor: pointer;
+  }
+.field {
+  border: none;
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 3%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: brown;
+  font-size: large;
+}
+
+.image {
+padding: auto;
+border-radius: 30px;
+width: 15px;
+height: 15px;
+}
+.crossed {
+  text-decoration: line-through 2px red;
+}
+button {
+  font-family: 'Montserrat', sans-serif;
+  color: brown;
+  padding: 10px;
+border: none;
+background-color:white;
+border-radius: 30px;
+font-size: 20px;
+font-weight: bold;
+}
+button:hover{
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+}
+input {
+  border-radius: 50px;
+  background-color:white;
+}
+.slaid {
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+.text {
+ 
+  font-family: 'Montserrat', sans-serif;
+   color: brown;
+   font-size: large;
+   font-weight: bold;
+}
